@@ -14,7 +14,7 @@ module.exports = function(app) {
   // API GET Requests
   // ---------------------------------------------------------------------------
 
-    app.get("/api/survey", function(req, res) {
+    app.get("/api/friends", function(req, res) {
       res.json(surveyData);
     });
 
